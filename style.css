@@ -131,11 +131,11 @@
     gap:22px;
   }
 
-  .menu-line{
-    display:flex;
-    align-items:flex-start;
-    gap:10px;
-  }
+.menu-line{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
   .menu-line .name{
     white-space:normal;
