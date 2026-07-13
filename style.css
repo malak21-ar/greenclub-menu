@@ -137,29 +137,27 @@
     gap: 10px;
 }
 
-  .menu-line .name{
-    white-space:normal;
-    flex:1;
+ .menu-line .name{
     font-family:'Cormorant Garamond', serif;
     font-size:1.32rem;
     font-weight:500;
     color:var(--cream);
-  }
+    flex-shrink:0;
+}
 
-  .menu-line .dots{
-    flex:1 1 auto;
-    border-bottom:1.5px dotted var(--line);
-    height:0;
-    transform:translateY(-5px);
-  }
+.menu-line .dots{
+    flex:1;
+    border-bottom:1px dotted var(--line);
+    margin-top:6px;
+}
 
-  .menu-line .price{
+.menu-line .price{
     font-family:'Cormorant Garamond', serif;
     font-size:1.18rem;
     font-weight:600;
     color:var(--gold);
-    white-space:nowrap;
-  }
+    flex-shrink:0;
+}
 
   hr.divider{
     border:none;
