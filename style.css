@@ -243,18 +243,24 @@
         padding:52px 0 10px;
     }
 
-    .menu-line{
-        align-items:flex-start;
+   .menu-line{
+        align-items:baseline;
+        gap:6px;
     }
 
     .menu-line .name{
-        font-size:1.15rem;
-        white-space:normal;
-        flex:1;
+        font-size:1.05rem;
+        white-space:nowrap;
+        flex-shrink:0;
+    }
+
+    .menu-line .dots{
+        transform:translateY(-5px);
     }
 
     .menu-line .price{
-        font-size:1.05rem;
+        font-size:.95rem;
+        flex-shrink:0;
     }
 
     hr.divider{
